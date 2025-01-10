@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.img-resize img{
+    float: left;
+    width: 30%; 
+    height: 250px;
+    margin-right: 15px;
+}
+.name{
+    color: #000000;
+    text-align: center;
+}
+.main{
+    width: 80vh;
+    height: 90vh;
+    transform: translateX(80%) translateY(30%);
+	background: rgb(255, 255, 255);
+	box-shadow: 5px 20px 50px #000;
+}
+.img-resize{
+    transform: translateX(40%) translateY(10px);
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เว็บวัด IQ</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="../CSS/project2.css">
+</head>
+<body>
+
+  <style>
+    #navbar{
+       width: 100%;
+       position: absolute;
+       top: 0;
+    }
+    
+  </style>
+  <body>
+  <div id="navbar" class="navbar bg-base-200" shaow-lg>
+          <div class="flex-1">
+            <a class="btn btn-ghost text-xl" <li><a href="./index.html">แนะนำตัว</a></li>
+          </div>
+          <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Profile</a></li>
+              <li>
+                <details>
+                  <summary>Project</summary>
+                  <ul class="bg-base-200 rounded-t-none p-2">
+                    <li><a href="./project1.html">project1 </a></li>
+                    <li><a href="./project2.html">project2</a></li>
+                  </ul>
+                </details>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </ul>
+
+  <div class="container">
+    <h1>ทดสอบ IQ ของคุณ</h1>
+    <div id="question-container">
+      <p id="question"></p>
+      <ul id="answers">
+        <li><button onclick="answerQuestion(0)">ตัวเลือก 1</button></li>
+        <li><button onclick="answerQuestion(1)">ตัวเลือก 2</button></li>
+        <li><button onclick="answerQuestion(2)">ตัวเลือก 3</button></li>
+        <li><button onclick="answerQuestion(3)">ตัวเลือก 4</button></li>
+      </ul>
+    </div>
+    <div id="result-container" style="display:none;">
+        <input type="number" id="AgeInput" placeholder="ป้อนอายุของคุณ">
+        <button id="submitAge" onclick="submitAge()">Submit Age</button>
+      <h2 id="scoretext">คะแนนของคุณคือ: <span id="score"></span></h2>
+      <button id="restartButton" onclick="restartTest()">เริ่มใหม่</button>
+    </div>
+  </div>
+  <script src="../JS/project2.js"></script>
+</body>
+</html>
