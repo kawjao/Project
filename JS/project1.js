@@ -31,14 +31,14 @@ let GameStorage = {
         MOotFish: ["ปลาตีน", "ปลาส้ม", "ปลาตาย", "ปลามีชีวิต"]
     },
     Image: [
-        "../Images/Ant.png",
-        "../Images/fish.png",
-        "../Images/MooNoAim.png",
-        "../Images/MooAim.png",
-        "../Images/MooGinBIG.png", // เพิ่มไฟล์ภาพที่ถูกต้อง
-        "../Images/MootidGata.png",
-        "../Images/beansprouts.png",
-        "../Images/MootFish.png"
+        "./Images/Ant.png",
+        "./Images/fish.png",
+        "./Images/MooNoAim.png",
+        "./Images/MooAim.png",
+        "./Images/MooGinBIG.png", // เพิ่มไฟล์ภาพที่ถูกต้อง
+        "./Images/MootidGata.png",
+        "./Images/beansprouts.png",
+        "./Images/MootFish.png"
     ]
 };
 
